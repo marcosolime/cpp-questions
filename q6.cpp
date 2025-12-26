@@ -30,6 +30,7 @@ int main() {
     // cout << p1 << endl;
     */
 
+    /*
     shared_ptr<int> p1 = make_shared<int>(20);
     shared_ptr<int> p2 = p1;
 
@@ -38,4 +39,9 @@ int main() {
 
     p2.reset();
     cout << p1.use_count() << endl;
+    */
+
+    /////
+    int* a = new int(44);
+    std::cout << *a << endl;
 }
